@@ -5,7 +5,7 @@ I did test this code, but it may still contain bugs. If you find errors or have 
 
 ## solveSPARSE
 
-This function takes a nonlinear optimization problem with a sparsity term in the objective function as well as optional options as input. Within the options, you can specify, which solver for sparse problems you want to use. At the moment, DIRECT and RELAXATION are possible. The function then passes the problem on to the specified solver. If you want to add more solvers, you have to registerr them here.
+This function takes a nonlinear optimization problem with a sparsity term in the objective function as well as optional options as input. Within the options, you can specify, which solver for sparse problems you want to use. At the moment, DIRECT and RELAXATION are possible. The function then passes the problem on to the specified solver. If you want to add more solvers, you have to register them here.
 
 ## solveSPARSE_direct
 
@@ -26,7 +26,7 @@ This function takes a nonlinear optimization problem with a sparsity term in the
 
 ## setupSPARSE_defaultOptions
 
-This function takes an options struct as input and sets up missing options using default values. E.g. if you did not specify the solver for spare problems, it chooses DIRECT.
+This function takes an options struct as input and sets up missing options using default values. E.g. if you did not specify the solver for sparse problems, it chooses DIRECT.
 
 ## relaxationSPARSE
 
