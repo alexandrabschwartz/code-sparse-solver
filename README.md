@@ -15,6 +15,10 @@ This function takes a nonlinear optimization problem with a sparsity term in the
 
 This function takes a nonlinear optimization problem with a sparsity term in the objective function as well as optional options as input. It reformulates the problem into an equivalent fully nonlinear optimization problem using continuous (i.e. not binary) auxiliary variables. The reformulation contains complementarity-type constraints, which are relaxed using a relaxation function of your choice and a sequence of relaxed problems is solved using an NLP solver of your choice.
 
+Some of these algorithms are described here:
+* O. Burdakov, C. Kanzow and A. Schwartz: *Mathematical Programs with Cardinality Constraints: Reformulation by Complementarity-type Constraints and a Regularization Method*, SIAM J. Optim. 26, 397–425, 2016
+* M. Branda, M. Bucher, M. Cervinka, Michal and A. Schwartz: *Convergence of a Scholtes-type Regularization Method for Cardinality-Constrained Optimization Problems with an Application in Sparse Robust Portfolio Optimization*, Computational Optimization and Applications 70, 2017
+
 ## setupSPARSE_missingData
 
 This function takes a nonlinear optimization problem with a sparsity term in the objective function as input. It checks the problem data for completeness and inserts missing data -- if possible -- using default values. E.g. if you did not specify box constraints on the variable, it inserts -inf/inf as lower/upper bounds.
