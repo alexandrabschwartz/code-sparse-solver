@@ -29,7 +29,7 @@ This function takes two vectors, a relaxation parameter and a type of relaxation
 
 ## relaxationSPARSE_scholtes, relaxationSPARSE_steffensen, relaxationSPARSE_schwartz, relaxationSPARSE_kadrani
 
-This function takes two vectors and a relaxation parameter as input an evaulates the relaxation function. The relaxation functions are called after one of the authors of the initial papers:
+These functions take two vectors and a relaxation parameter as input and evaulate the relaxation function. The relaxation functions are called after one of the authors of the respective initial papers:
 * S. Scholtes: *Convergence properties of a regularization scheme for mathematical programs with complementarity constraints*, SIAM J. Optim. 11, 918–936, 2001
 * S. Steffensen and M. Ulbrich: *A new regularization scheme for mathematical programs with equilibrium constraints*, SIAM J. Optim. 20, 2504–2539, 2010
 * C. Kanzow and A. Schwartz: *A new regularization method for mathematical programs with complementarity constraints with strong convergence properties*, SIAM J. Optim. 23, 770–798, 2013
