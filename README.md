@@ -17,7 +17,7 @@ This function takes a nonlinear optimization problem with a sparsity term in the
 
 ## setupSPARSE_missingData
 
-This function takes a nonlinear optimization problem with a sparsity term in the objective function as input. It checks thee problem data for completeness and inserts missing data -- if possible -- using default values. E.g. if you did not specify box constraints on the variable it inserts -inf/inf as lower/upper bounds.
+This function takes a nonlinear optimization problem with a sparsity term in the objective function as input. It checks thee problem data for completeness and inserts missing data -- if possible -- using default values. E.g. if you did not specify box constraints on the variable, it inserts -inf/inf as lower/upper bounds.
 
 ## setupSPARSE_defaultOptions
 
@@ -25,7 +25,7 @@ This function takes an options struct as input and sets up missing options using
 
 ## relaxationSPARSE
 
-This function takes two vectors, a relaxation parameter and a type of relaxation functions as input and passes this data on to the specified relaxation function. at the momen, SCHOLTES, STEFFENSEN, SCHWARTZ and KADRANI are possible. If you want to add more types, you have to register them here.
+This function takes two vectors, a relaxation parameter and a type of relaxation functions as input and passes this data on to the specified relaxation function. At the moment, SCHOLTES, STEFFENSEN, SCHWARTZ and KADRANI are possible. If you want to add more types, you have to register them here.
 
 ## relaxationSPARSE_scholtes, relaxationSPARSE_steffensen, relaxationSPARSE_schwartz, relaxationSPARSE_kadrani
 
