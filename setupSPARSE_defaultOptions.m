@@ -28,8 +28,8 @@ y_start_default = 1;
 %% set up default options
 
 if isempty(options)
-    options.objectivegradient = [];
-    options.constraintsjacobian = [];
+    options.objectiveGradient = [];
+    options.constraintsJacobian = [];
     options.NLPsolver = [];
     options.algorithm = [];
     options.relaxation = [];
